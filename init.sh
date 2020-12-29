@@ -14,7 +14,7 @@ do
   do
     jsd="https://cdn.jsdelivr.net/gh/wangxiaoerYah/my-jsd-repo@latest/$a/$b"
     gitee="https://wangxiaoeryah.gitee.io/my-link-repo/$a/$b"
-    echo "|$tab|$b|$jsde|$gitee|" >> out.md
+    echo "|$tab|$b|$jsd|$gitee|" >> out.md
   done
 done
 
