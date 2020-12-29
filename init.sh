@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+rm -f README.md
 rm -f out.md
 prin_dir=$(ls -l --time-style=iso |grep "^d" |awk '{print $8}')
 tab=$(echo -e '\t')
